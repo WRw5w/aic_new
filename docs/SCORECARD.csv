@@ -1,0 +1,14 @@
+status,score,candidate,stage,artifact_local,interpretation
+legal_historical_best,78.9122,b512_aligned_tta_balanced,initial,no,"最高单次合法榜分；当前未找到绑定checkpoint，不能承诺可复现"
+legal_seed_control,78.9082,b480_aligned_seed123_tta_balanced,initial,no,"与seed42的78.7439相差0.1643，证明平台区间内seed噪声不可忽略"
+legal_transfer_reference,78.8561,b448_aligned_formal_v2_tta_balanced,initial,yes,"当前最适合交付：checkpoint+日志+预测+provenance完整"
+legal_control,78.7359,b448_default_tta_balanced,initial,no,"timm默认位置编码重采样对照"
+legal_method_milestone,78.6318,clmixsoup5_tta_balanced,initial,partial,"cleanlab+mixup+同轨迹SWA的关键里程碑"
+legal_reproduction_baseline,78.5477,champion_real_tta_balanced,initial,submission_only,"可靠复现基线，提醒不要把单次峰值当稳定水平"
+legal_negative,78.5437,b448_aligned_ssl_recover_noise_v4_tta_balanced,initial,yes,"保守SSL回收未超过对照，计算成本更高"
+legal_negative,78.2433,b448_dual_pool_gate_v5_tta_balanced,initial,yes,"双池化门控明显下降"
+legal_negative,74.5264,dividemix_swa_tta_balanced,initial,partial,"激进动态划分伤害hard-but-correct样本"
+offline_unsubmitted,,posterior_soft_divide_v8,initial,yes,"只有离线noisy holdout，不得写成榜分"
+invalid_probe,89.3620,pe_core_g14_training_label_probe,initial,no,"违规骨干/诊断探针；禁止正式使用"
+invalid_probe,92.0014,pe_lora_training_label_probe,initial,no,"训练集标注探针；禁止正式使用"
+

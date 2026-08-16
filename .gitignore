@@ -1,0 +1,24 @@
+# Competition data and heavyweight model artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+data/
+dataset/
+datasets/
+
+# Credentials and browser/session state
+.env
+.env.*
+*.pem
+*.key
+*credential*
+*cookie*
+*session*
+
+# Local runtime state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tmp/
+*.log
