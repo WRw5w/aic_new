@@ -11,9 +11,9 @@
 | 层 | 内容 | 用途 |
 |---|---|---|
 | GitHub 仓库 `WRw5w/aic_new` | 当前核心代码、测试、接手文档、研究报告 | 日常开发入口 |
-| `full-history-20260829` Release 记录包 | 当前工作区的代码/配置/日志/榜单/提交证据、净化后的 Git 历史 bundle、Codex 与 Claude Code 记忆 | 追溯决策和恢复历史 |
-| `handoff-v1-20260816/full.pt` | 合法参考模型 `b448_aligned formal v2` | 直接复现 78.8561 路线 |
-| `full-history-20260829/pe_core_g14_lora_ep04.pt` | 92.0014 诊断模型的 LoRA＋分类头 checkpoint | 仅用于理解历史诊断，不得正式提交 |
+| [`full-history-20260829` Release 记录包](https://github.com/WRw5w/aic_new/releases/tag/full-history-20260829) | 当前工作区的代码/配置/日志/榜单/提交证据、净化后的 Git 历史 bundle、Codex 与 Claude Code 记忆 | 追溯决策和恢复历史 |
+| [`handoff-v1-20260816/full.pt`](https://github.com/WRw5w/aic_new/releases/download/handoff-v1-20260816/full.pt) | 合法参考模型 `b448_aligned formal v2` | 直接复现 78.8561 路线 |
+| [`full-history-20260829/pe_core_g14_lora_ep04.pt`](https://github.com/WRw5w/aic_new/releases/download/full-history-20260829/pe_core_g14_lora_ep04.pt) | 92.0014 诊断模型的 LoRA＋分类头 checkpoint | 仅用于理解历史诊断，不得正式提交 |
 
 ## 接手后的第一小时
 
