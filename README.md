@@ -14,6 +14,7 @@
 
 - `project/`：比赛项目代码、配置与选定实验产物
 - `leaderboard_control/`：自动打榜控制端的安全子集
+- `plugins/aic-leaderboard/`：共享的新版 MCP/Codex 插件；安装及跨赛道适配见 [队友配置说明](plugins/aic-leaderboard/TEAM_SETUP.md)，现有正式提交控制面不变
 - `docs/`：复现、成绩、资产和交接文档
 - `agent_memories/`：可直接浏览的 Codex 与 Claude Code 项目记忆；完整项目会话在 Release 记录包中
 - `handoff_tools/`：记录包的构建、排除与校验脚本

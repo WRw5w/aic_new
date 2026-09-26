@@ -1,0 +1,42 @@
+{
+  "repository": "https://github.com/WRw5w/new_mcp",
+  "commit": "40fae38e1d90bb038ddb0d054a0af04cb100ad24",
+  "excluded": [
+    "migration/"
+  ],
+  "source_sha256": {
+    ".codex-plugin/plugin.json": "41d9e67b5dd6196a5046d0e12e0cc9b935bb0d1f69ff98bb5eaf45b06678fea1",
+    ".gitignore": "f1c3d4cf0206fe067222e0b656692e1892a40d56a31a0daca69ee786c607f62e",
+    ".mcp.json": "e42c61108634057a7e415335d0fee29acf38c2f5f8f2ab73fd3b0d40452f9cb4",
+    "README.md": "c69e89d62cad38bfc4d3de6b76a447059b4e32b2eec87a88b7c2569dc8af537e",
+    "aic_leaderboard/__init__.py": "ac8744a0e280496cc4dcea3e60cc02b0bc11e41d3227681e5dafd0efe39d0477",
+    "aic_leaderboard/auto.py": "1e37bc95c59039d40e847465d6e629803b49a27ef72bf2e42a317921a26e9b81",
+    "aic_leaderboard/cli.py": "63905e82587dd0bcdfa28eb47dac2bd66968604ff0579ccaa670db7a0f2e4079",
+    "aic_leaderboard/core.py": "c8b028d46d3f3041156844b6d83e175ce113f4a5b87dae44708ab9d55d530db2",
+    "aic_leaderboard/ledger.py": "b8dff68ca649b735f780ed0ce0f4b52a4bcec7470271454f5ab3d19bc7b2634f",
+    "aic_leaderboard/mcp.py": "c7bfbb77d75dbfe996931b84bd941d686b9e315953b6d34c6eff8ae4ed63123b",
+    "package-lock.json": "4d8c15de3ced7c5ce816456f0d40d35c93b7e3541a995b4de8ef62841a3b99d8",
+    "package.json": "d35d67513711d5013b76c0fa81c9e58f1282bf9af52df81710c1e9c39450418e",
+    "pyproject.toml": "570c10e5535d2e6c4503f7101f31273c293d0ba94a06b352c6d95a4171d2afa7",
+    "skills/aic-leaderboard/SKILL.md": "30fe37a01be7d7fb08944a6e371f5c2fb07aecaebe859b1fe16f19d1d9bf72c3",
+    "test_auto_submit.py": "c8aba7878635344b6213809fa50248bdf06f6bcb92319af50deef0eace9c826f",
+    "tests/fixtures/leaderboard_table.html": "c7f62986631471ddf6f56c726a66d566955f27904c550a49f421f10741a32c3b",
+    "tests/fixtures/submit_ready.html": "7c3375e5d2d43f3bdce6ee284cc5a267d36ed2086e8a40cd6f901faa87df49f1",
+    "tests/test_core.py": "698f099a4f7d15e740230ce55d02c41556b94f01e79d3e3dec5b6d0070c61ff8",
+    "tests/test_mcp.py": "b325d256c0ef6b6bbbad14bd26820e8c5ae9f165e801e622020e3cec950863d7",
+    "tools/leaderboard_cdp.mjs": "f4486d29c3fa770472374c98a1863fbd89f9808c4c7140c27b8ac475e41894a5",
+    "tools/leaderboard_pipe.mjs": "9b56e3a2bbf68dba5833071549238a449a7d0266414bd69285c1e5516a057a06",
+    "tools/pipe_smoke.mjs": "1eaa2435176517460e350e6572bbc8aaf3689202cb8aaa8398b25a976ac1deda",
+    "tools/start_leaderboard_chrome.ps1": "151eb2328453d7f8777c6d98859f690b3f5c3a79f9747b90d462b39891f4de20"
+  },
+  "local_changes": [
+    "README.md",
+    ".mcp.json",
+    ".gitignore"
+  ],
+  "added": [
+    ".gitattributes",
+    "TEAM_SETUP.md",
+    "UPSTREAM.json"
+  ]
+}
